@@ -99,7 +99,7 @@ Player-Death-By-Player:
 - '&c%player% &eblev brutalt dræbt af &a%killer%&e!'
 - '&c%player% &evåben kunne ikke klare &a%killer%&e!'
 - '&a%killer% &ehjalp til i &c%player% &edød!'
-- '&a%killer% &ekunne ikke modstå at dræbe &c%player%&e!'
+- '&a%player% &ekunne ikke modstå at dræbe &c%killer%&e!'
 Player-Death-By-Falldamage: '&c%player% &e faldt ned og døde! AV!'
 Player-Death-By-Lava: '&c%player% &emente at han kunne svømme i lava'
 Player-Death-By-Fire: '&c%player% &ebrændte op!'
