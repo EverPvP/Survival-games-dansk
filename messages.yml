@@ -1,11 +1,15 @@
 # Messages supports color codes!
-prefix: '&3[&6SurvivalGames&3]&6 '
+
+prefix: '&3[&6SG&3]&6 '
 scoreboard-prefix: '&e&lSG'
 scoreboard-stats: '&6Statistik'
 scoreboard-kills: '&fDrab: &a%kills%'
 scoreboard-money: '&fPenge: &a%money%'
 scoreboard-coins: '&fMønter: &a%coins%'
 scoreboard-wins: '&fSpil vundet: &a%wins%'
+scoreboard-arena: '&eArena'
+scoreboard-players: '&fPlayers: &a%players%'
+scoreboard-viewers: '&fViewers: &a%viewers%'
 Messages:
   No-Permission: Du har ikke tilladelse til at gøre dette!
   No-Console: Kun spillere kan bruge denne kommando!
@@ -36,7 +40,7 @@ Messages:
   Shop-Disabled: Shop er slået fra!
   Couldnt-Find-Player-Data: Kunne ikke finde spiller data i filen!
   Game-Start: Spillet er startet!
-  Recivied-Kit-Items: "Du har modtaget følgende kit: &b%kit%!"
+  Recivied-Kit-Items: 'Du har modtaget følgende kit: &b%kit%!'
   Game-Ending: Spillet slutter om &b%minutes% &6minutter!
   Chest-Refill-Warn: Kisterne bliver genopfyldt om &b%seconds% &6sekunder!
   Chest-Refill: Alle kisterne er blevet genopflydt!
@@ -46,7 +50,6 @@ Messages:
   DeathMatch-Starting: Dødskampen starter om &b%seconds% &6sekunder!
   Game-Ending-In-DeathMatch: Spillet slutter om &b%seconds% &6sekunder!
   Winner-Grats: Tillykke, du har vundet!
-  Vip-Player-Win-Earn-Tokens: Du har tjent &b%coins% &6mønter for at vinde (x2)!
   Normal-Player-Win-Earn-Tokens: Du har tjent &b%coins% &6mønter for at vinde!
   Player-Win-Arena-Broadcast: Vinderen af arenaen &b%arena% &6er &b%player%&6. Tillykke!
   Couldnt-Find-Nearby-Player-In-Radius: Kunne ikke finde en spiller i nærheden af &b%radius%&6!
@@ -58,7 +61,6 @@ Messages:
   Not-Enough-Coins: Ikke nok mønter!
   Purchase-Item: Du har købt en &b%item% &6x&b%amount% &6for &b%price% &6mønter!
   Blocked-Command: Du kan ikke bruge denne SurvivalGame kommand i spillet!
-  Vip-Kill-Player-Self-Message: Du har dræbt &b%target% &6og tjent &b%coins% &6mønter!
   Normal-Kill-Player-Self-Message: Du har dræbt &b%target% &6og tjent &b%coins% &6mønter!
   Player-Suicide: Du har dræbt dig selv! Flot! ;-)
   Player-Spectate: Du kigger nu på!
@@ -68,13 +70,14 @@ Messages:
   Carepackage-Denied: Der skal være &b%height% &6blokke fri over dig!
   Sponsor-Self-Message: Du har sponsoreret &b%player% &6med &b%item% &6x&b%amount% &6som kostede &b%cost% &6mønter!
   Sponsor-Target-Message: Du er blevet sponsoreret af &b%player% &6med en &b%item% &6x&b%amount%&6!
+  Sponsor-Full-Inventory: The player %player% has a full inventory!
+  Sponsor-Target-Full-Inventory: Someone tried to sponsor you but you have a full inventory!
   Coins-Restore: Dine brugte mønter er blevet gendannet! (&b%coins%&6)!
   No-Available-Arenas: Kunne ikke finde nogle tilgængelige arenaer!
   Global-Lobby-Cant-Teleport-While-In-Game: Du kan ikke gøre dette inde i spillet!
   Global-Lobby-Not-Set: Global lobby er ikke blevet indstillet!
   Global-Lobby-Teleport: Du er blevet teleporteret til lobbyen!
   Arena-Won-The-Vote: Mappet &b%arena% &6vandt afstemningen! med &b%votes% &6stemmer.
-  Time-Extend: Tiden blev udvidet med &b%time% &6sekunder!
   Vote-Locked: Afstemningen er blevet låst!
   Player-Vote: Du har stemt på &b%map%
   Time-Skip: Tiden blev sat frem til &b%seconds%&6 sekunder!
@@ -84,6 +87,11 @@ Messages:
   Kit-Already-Unlocked: Du har allerede låst dette kit op
   Kit-Purchase: Du har købt kittet &b%kitname% &6og mistst &b%cost% &6mønter! &aTillykke med dit nye kit
   Join-Deny: Du skal have en en tom hånd, for at kunne klikke på skiltet!
+  Match-Reset-Kick-Message: You have been kicked due to a match reset
+  Cant-Vote-Any-More: You have reached your voting power limit!
+  Vip-Player-Win-Earn-Tokens: Du har tjent &b%coins% &6mønter for at vinde (x2)!
+  Vip-Kill-Player-Self-Message: Du har dræbt &b%target% &6og tjent &b%coins% &6mønter!
+  Time-Extend: Tiden blev udvidet med &b%time% &6sekunder!
 Waiting-State: '&aVENTER'
 Starting-State: '&6STARTER'
 INGAME-State: '&cI GANG'
@@ -93,7 +101,6 @@ Rollbacking-State: '&cNULSTILLER'
 Starting-Deathmatch-State: '&cI GANG'
 Finishing-State: '&cAFSLUTTER'
 NotJoinable-State: '&cKan-ikke-joines'
-Unknown-State: '&0Ukendt??'
 Player-Death-By-Player:
 - '&c%player% &eblev dræbt af &a%killer%&e!'
 - '&c%player% &eblev brutalt dræbt af &a%killer%&e!'
@@ -105,3 +112,4 @@ Player-Death-By-Lava: '&c%player% &emente at han kunne svømme i lava'
 Player-Death-By-Fire: '&c%player% &ebrændte op!'
 Player-Death-By-Explosion: '&c%player% &eblev sprunget i en million stykker!'
 Player-Death-By-Unknown: '&c%player% &eblev dræbt af et &bukendt objekt!'
+Unknown-State: '&0Ukendt??'
