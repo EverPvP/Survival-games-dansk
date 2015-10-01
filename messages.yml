@@ -70,8 +70,8 @@ Messages:
   Carepackage-Denied: Der skal være &b%height% &6blokke fri over dig!
   Sponsor-Self-Message: Du har sponsoreret &b%player% &6med &b%item% &6x&b%amount% &6som kostede &b%cost% &6mønter!
   Sponsor-Target-Message: Du er blevet sponsoreret af &b%player% &6med en &b%item% &6x&b%amount%&6!
-  Sponsor-Full-Inventory: The player %player% has a full inventory!
-  Sponsor-Target-Full-Inventory: Someone tried to sponsor you but you have a full inventory!
+  Sponsor-Full-Inventory: Spilleren %player% har en fuld taske
+  Sponsor-Target-Full-Inventory: En person prøvede at sponsorere dig, men din taske er fuld
   Coins-Restore: Dine brugte mønter er blevet gendannet! (&b%coins%&6)!
   No-Available-Arenas: Kunne ikke finde nogle tilgængelige arenaer!
   Global-Lobby-Cant-Teleport-While-In-Game: Du kan ikke gøre dette inde i spillet!
