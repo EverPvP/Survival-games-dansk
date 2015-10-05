@@ -32,66 +32,64 @@ Messages:
   Player-Leave-In-Game: '&b%player% &6er blevet dræbt!'
   Players-Remain: '&b%arenasize% &eSpillere tilbage'
   Game-Cancelled-Not-Enough-Players: Spillet er blevet stoppet, da der ikke var nok spillere!
-  Player-Leave-Self-Message: You have left the game!
-  Kits-Disabled: Kits are disabled!
-  Cant-Buy-Or-SelectKit: You must be in an arena that hasnt started yet!
-  No-Available-Kits: Could not find any available kits!
-  Shop-Disabled: Shop is disabled!
-  Couldnt-Find-Player-Data: Could not find player data in the files!
-  Game-Start: Game has started!
-  Recivied-Kit-Items: You have recivied the kit &b%kit% &6items!
-  Game-Ending: Game ending in &b%minutes% &6minutes!
-  Chest-Refill-Warn: 'Chests will be refilled after: &b%seconds% &6seconds!'
-  Chest-Refill: All chests have been refilled!
-  Grace-Ending: 'Grace ending in: &b%seconds% &6seconds!'
-  Grace-End: Grace period has ended!
-  Game-Cancelled: Game has been cancelled!
-  DeathMatch-Starting: 'Deathmatch starting in: &b%seconds% &6seconds!'
-  Game-Ending-In-DeathMatch: Game ending in &b%seconds% &6seconds!
-  Winner-Grats: Congratulation, You have won!
-  Normal-Player-Win-Earn-Tokens: You have earned &b%coins% &6Coins For winning!
-  Player-Win-Arena-Broadcast: The winner of the arena &b%arena% &6is &b%player%
-  Couldnt-Find-Nearby-Player-In-Radius: Could not find any nearby players in a radius of &b%radius%&6!
-  Item-Disabled: This item has been disabled!
-  Kit-Selected: You will get your kit items when the game begins!
-  Couldnt-Find-Kit: Could not find that kit!
-  Spectator-Teleport: You have been teleported to &b%player%
-  Spectator-Teleport-Deny: Could not find that player in your arena
-  Not-Enough-Coins: Not enough coins!
-  Purchase-Item: You have purchased a(n) &b%item% &6x&b%amount% &6for &b%price% &6Coins!
-  Blocked-Command: You cant use non SurvivalGames commands In-Game!
-  Normal-Kill-Player-Self-Message: You have killed &b%target% &6and earned &b%coins% &6Coins!
-  Player-Suicide: You have killed your self!
-  Player-Spectate: You are now spectating the match!
-  Carepackage-Dropping: Carepackage coming in &b%seconds% &6seconds!
-  Carepackage-Drop: Carepackage has been dropped!
-  Carepackage-Cancel: Carepackage has been cancelled due to a new event!
-  Carepackage-Denied: There must be &b%height% &6free blocks above the location!
-  Carepackage-Denied-2: The carepackage can not be placed on a half block!
-  Sponsor-Self-Message: You sponsored the player &b%player% &6with &b%item% &6x&b%amount% &6that costed &b%cost% &6coins!
-  Sponsor-Target-Message: You are being sponsored by &b%player% &6with a(n) &b%item% &6x&b%amount%&6!
-  Sponsor-Full-Inventory: The player %player% has a full inventory!
-  Sponsor-Target-Full-Inventory: Someone tried to sponsor you but you have a full inventory!
-  Coins-Restore: Your spent coins has been restored! (&b%coins%&6)!
-  No-Available-Arenas: Could not find any available arenas!
-  Global-Lobby-Cant-Teleport-While-In-Game: You cant do that while in a game!
-  Global-Lobby-Not-Set: Global lobby hasnt been set yet!
-  Global-Lobby-Teleport: You have been teleported to the global lobby!
-  Arena-Won-The-Vote: The map &b%arena% &6has won the voting! with &b%votes% &6votes.
-  Vote-Locked: Voting has been locked!;
-  Player-Vote: You have voted for the map &b%map%
-  Time-Skip: Time was skipped to &b%seconds%&6 Seconds!
-  Server-Restart: Server you were on is restarting now!
-  Not-A-Tier-2-Chest: Could not find this tier 2 chest!
-  Kit-Already-Unlocked: You already have this kit unlocked
-  Kit-Purchase: You have purchased the kit &b%kitname% &6and lost &b%cost% &6coins! &aCongrats for your new kit
-  Join-Deny: You must have nothing in hand to use the join signs!
+  Player-Leave-Self-Message: Du har forladt spillet!
+  Kits-Disabled: Kits er slået fra!
+  Cant-Buy-Or-SelectKit: Du skal være i en arena, der endnu ikke er startet!
+  No-Available-Kits: Kunne ikke finde nogle kits!
+  Shop-Disabled: Shop er slået fra!
+  Couldnt-Find-Player-Data: Kunne ikke finde spiller data i filen!
+  Game-Start: Spillet er startet!
+  Recivied-Kit-Items: 'Du har modtaget følgende kit: &b%kit%!'
+  Game-Ending: Spillet slutter om &b%minutes% &6minutter!
+  Chest-Refill-Warn: Kisterne bliver genopfyldt om &b%seconds% &6sekunder!
+  Chest-Refill: Alle kisterne er blevet genopflydt!
+  Grace-Ending: Drabsfri periode ender om &b%seconds% &6sekunder!
+  Grace-End: Drabsfri periode er slut. DRÆB DRÆB DRÆB!!!!
+  Game-Cancelled: Spillet er blevet afsluttet!
+  DeathMatch-Starting: Dødskampen starter om &b%seconds% &6sekunder!
+  Game-Ending-In-DeathMatch: Spillet slutter om &b%seconds% &6sekunder!
+  Winner-Grats: Tillykke, du har vundet!
+  Normal-Player-Win-Earn-Tokens: Du har tjent &b%coins% &6mønter for at vinde!
+  Player-Win-Arena-Broadcast: Vinderen af arenaen &b%arena% &6er &b%player%&6. Tillykke!
+  Couldnt-Find-Nearby-Player-In-Radius: Kunne ikke finde en spiller i nærheden af &b%radius%&6!
+  Item-Disabled: Denne ting er slået fra.
+  Kit-Selected: Du får dit kit når spillet starter!
+  Couldnt-Find-Kit: Kunne ikke finde dette kit!
+  Spectator-Teleport: Du er blevet teleporteret til &b%player%
+  Spectator-Teleport-Deny: Kunne ikke finde spilleren i denne arena
+  Not-Enough-Coins: Ikke nok mønter!
+  Purchase-Item: Du har købt en &b%item% &6x&b%amount% &6for &b%price% &6mønter!
+  Blocked-Command: Du kan ikke bruge denne SurvivalGame kommand i spillet!
+  Normal-Kill-Player-Self-Message: Du har dræbt &b%target% &6og tjent &b%coins% &6mønter!
+  Player-Suicide: Du har dræbt dig selv! Flot! ;-)
+  Player-Spectate: Du kigger nu på!
+  Carepackage-Dropping: Carepackage kommer om &b%seconds% &6sekunder!
+  Carepackage-Drop: Carepackage er kommet!
+  Carepackage-Cancel: Carepackage er blevet anulleret!
+  Carepackage-Denied: Der skal være &b%height% &6blokke fri over dig!
+  Sponsor-Self-Message: Du har sponsoreret &b%player% &6med &b%item% &6x&b%amount% &6som kostede &b%cost% &6mønter!
+  Sponsor-Target-Message: Du er blevet sponsoreret af &b%player% &6med en &b%item% &6x&b%amount%&6!
+  Sponsor-Full-Inventory: Spilleren %player% har en fuld taske
+  Sponsor-Target-Full-Inventory: En person prøvede at sponsorere dig, men din taske er fuld
+  Coins-Restore: Dine brugte mønter er blevet gendannet! (&b%coins%&6)!
+  No-Available-Arenas: Kunne ikke finde nogle tilgængelige arenaer!
+  Global-Lobby-Cant-Teleport-While-In-Game: Du kan ikke gøre dette inde i spillet!
+  Global-Lobby-Not-Set: Global lobby er ikke blevet indstillet!
+  Global-Lobby-Teleport: Du er blevet teleporteret til lobbyen!
+  Arena-Won-The-Vote: Mappet &b%arena% &6vandt afstemningen! med &b%votes% &6stemmer.
+  Vote-Locked: Afstemningen er blevet låst!
+  Player-Vote: Du har stemt på &b%map%
+  Time-Skip: Tiden blev sat frem til &b%seconds%&6 sekunder!
+  Server-Restart: Serveren du er på, er blevet genstartet!
+  Not-A-Tier-2-Chest: Kunne ikke finde denne niveau 2 kiste!
+  Not-A-Buyable-Kit: Dette kit kan ikke købes!
+  Kit-Already-Unlocked: Du har allerede låst dette kit op
+  Kit-Purchase: Du har købt kittet &b%kitname% &6og mistst &b%cost% &6mønter! &aTillykke med dit nye kit
+  Join-Deny: Du skal have en en tom hånd, for at kunne klikke på skiltet!
   Match-Reset-Kick-Message: You have been kicked due to a match reset
   Cant-Vote-Any-More: You have reached your voting power limit!
-  Bounty-Set: '&b%player% &6has set a &cbounty &6of &a&n&l%cost% &6on the player &3%target%&6,
-    &e%target% &6now has a kill worth of &a%bounty%'
-  Bounty-Get: '&a&l&n%killer% &6has gotten the bounty set on &c%player% &6with a value
-    of &e%bounty%'
+  Bounty-Set: '&b%player% &6har sat en &cbounty &6på &a&n&l%cost% &6på the spilleren &3%target%&6, &e%target% &6har nu en drabsværdi på &a%bounty%'
+  Bounty-Get: '&a&l&n%killer% &6har fået bountyen på &c%player% &6med en værdi af &e%bounty%'
   Bounty-Win: '&b%player% &6got the bounty that was set on him with a value of &a%bounty%'
   Bounty-Fail: The player u have set a bounty on left or was not killed by someone, due to that your money has been restored! &e(&6+&a%bounty%&e)
   Spectator-Bounty_Sponsor-Deny: You cant do this right now!
@@ -100,23 +98,23 @@ Messages:
   Cooldown: You cant use this yet! &e(&b%seconds%&e)
   Warning-Receive: You have received a warning! &b(&c%warnings%&6/&c%maxwarnings%&b)
   Warning-Kick: You have been kicked out of the game for exceeding the warnings limit!
-Waiting-State: '&aWAITING'
-Starting-State: '&6STARTING'
-INGAME-State: '&cINGAME'
-Deathmatch-State: '&cDEATH-MATCH'
-Disabled-State: '&4DISABLED'
-Rollbacking-State: '&cROLLBACKING'
-Starting-Deathmatch-State: '&cINGAME'
-Finishing-State: '&cFINISHING'
-NotJoinable-State: '&cNot-Joinable'
+Waiting-State: '&aVENTER'
+Starting-State: '&6STARTER'
+INGAME-State: '&cI GANG'
+Deathmatch-State: '&cDØDSKAMP'
+Disabled-State: '&4SLÅET FRA'
+Rollbacking-State: '&cNULSTILLER'
+Starting-Deathmatch-State: '&cI GANG'
+Finishing-State: '&cAFSLUTTER'
+NotJoinable-State: '&cKan-ikke-joines'
 Player-Death-By-Player:
-- '&c%player% &ehas been killed by &a%killer%&e!'
-- '&c%player% &ewas brutally murdered by &a%killer%&e!'
-- '&c%player% &eweapon could not stand against &a%killer%&e!'
-- '&a%killer% &egave a helping hand in &c%player% &edeath!'
-- '&a%killer% &ecould not resist killing &c%player%&e!'
-Player-Death-By-Falldamage: '&c%player% &efell to his death!'
-Player-Death-By-Lava: '&c%player% &ethought he can swim in lava!'
-Player-Death-By-Fire: '&c%player% &eburned to death!'
-Player-Death-By-Explosion: '&c%player% &ewas exploded into million pieces!'
-Player-Death-By-Unknown: '&c%player% &ehas been killed by &bUnknown Object!'
+- '&c%player% &eblev dræbt af &a%killer%&e!'
+- '&c%player% &eblev brutalt dræbt af &a%killer%&e!'
+- '&c%player% &evåben kunne ikke klare &a%killer%&e!'
+- '&a%killer% &ehjalp til i &c%player% &edød!'
+- '&a%killer% &ekunne ikke modstå at dræbe &c%player%&e!'
+Player-Death-By-Falldamage: '&c%player% &e faldt ned og døde! AV!'
+Player-Death-By-Lava: '&c%player% &emente at han kunne svømme i lava'
+Player-Death-By-Fire: '&c%player% &ebrændte op!'
+Player-Death-By-Explosion: '&c%player% &eblev sprunget i en million stykker!'
+Player-Death-By-Unknown: '&c%player% &eblev dræbt af et &bukendt objekt!'
