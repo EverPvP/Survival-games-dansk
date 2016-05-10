@@ -67,6 +67,7 @@ Messages:
   Carepackage-Drop: Carepackage er kommet!
   Carepackage-Cancel: Carepackage er blevet anulleret!
   Carepackage-Denied: Der skal være &b%height% &6blokke fri over dig!
+  Carepackage-Denied-2: The carepackage can not be placed on a half block!
   Sponsor-Self-Message: Du har sponsoreret &b%player% &6med &b%item% &6x&b%amount% &6som kostede &b%cost% &6mønter!
   Sponsor-Target-Message: Du er blevet sponsoreret af &b%player% &6med en &b%item% &6x&b%amount%&6!
   Sponsor-Full-Inventory: Spilleren %player% har en fuld taske
@@ -82,22 +83,25 @@ Messages:
   Time-Skip: Tiden blev sat frem til &b%seconds%&6 sekunder!
   Server-Restart: Serveren du er på, er blevet genstartet!
   Not-A-Tier-2-Chest: Kunne ikke finde denne niveau 2 kiste!
-  Not-A-Buyable-Kit: Dette kit kan ikke købes!
   Kit-Already-Unlocked: Du har allerede låst dette kit op
   Kit-Purchase: Du har købt kittet &b%kitname% &6og mistst &b%cost% &6mønter! &aTillykke med dit nye kit
   Join-Deny: Du skal have en en tom hånd, for at kunne klikke på skiltet!
   Match-Reset-Kick-Message: You have been kicked due to a match reset
   Cant-Vote-Any-More: You have reached your voting power limit!
-  Bounty-Set: '&b%player% &6har sat en &cbounty &6på &a&n&l%cost% &6på the spilleren &3%target%&6, &e%target% &6har nu en drabsværdi på &a%bounty%'
-  Bounty-Get: '&a&l&n%killer% &6har fået bountyen på &c%player% &6med en værdi af &e%bounty%'
+  Bounty-Set: '&b%player% &6har sat en &cbounty &6på &a&n&l%cost% &6på the spilleren
+    &3%target%&6, &e%target% &6har nu en drabsværdi på &a%bounty%'
+  Bounty-Get: '&a&l&n%killer%&r &6har fået bountyen på &c%player% &6med en værdi af
+    &e%bounty%'
   Bounty-Win: '&b%player% &6got the bounty that was set on him with a value of &a%bounty%'
   Bounty-Fail: The player u have set a bounty on left or was not killed by someone, due to that your money has been restored! &e(&6+&a%bounty%&e)
   Spectator-Bounty_Sponsor-Deny: You cant do this right now!
   Player-Modifier-Change: Your modifier has been changed!
   Stats-Reset: '&cYour stats have been reset!'
-  Cooldown: You cant use this yet! &e(&b%seconds%&e)
+  Cooldown: Du kan ikke bruge denne endnu! &e(&b%seconds%&e)
   Warning-Receive: You have received a warning! &b(&c%warnings%&6/&c%maxwarnings%&b)
   Warning-Kick: You have been kicked out of the game for exceeding the warnings limit!
+  Cant-Vote: You cant vote right now
+  Not-A-Buyable-Kit: Dette kit kan ikke købes!
 Waiting-State: '&aVENTER'
 Starting-State: '&6STARTER'
 INGAME-State: '&cI GANG'
